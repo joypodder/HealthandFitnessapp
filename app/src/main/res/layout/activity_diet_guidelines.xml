@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FEFAE0"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/guidelines_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#626F47"
+        android:padding="20dp"
+        android:background="@drawable/rounded_textview"
+        android:gravity="center"
+        android:text="Dietary Guidelines will be displayed here"
+        android:textStyle="bold"
+        android:elevation="6dp"
+        android:layout_marginBottom="24dp" />
+</LinearLayout>

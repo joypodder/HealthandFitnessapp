@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Health and Wellness</string>
+    <string-array name="assessment_intervals">
+        <item>3 months</item>
+        <item>6 months</item>
+        <item>12 months</item>
+    </string-array>
+</resources>

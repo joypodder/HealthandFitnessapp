@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1086891397954",
+    "project_id": "health-and-fitness-app-6d046",
+    "storage_bucket": "health-and-fitness-app-6d046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086891397954:android:1450902572473b04dceedb",
+        "android_client_info": {
+          "package_name": "com.joyp.healthandfitnessapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Y218oi5Yj7hOwQFCkrtbMeBuXvtR5w0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

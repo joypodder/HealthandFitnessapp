@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FEFAE0">
+
+    <EditText
+        android:id="@+id/nicotine_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number of cigarettes"
+        android:inputType="number"
+        android:padding="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="#626F47"
+        android:textSize="16sp"
+        android:elevation="4dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:elevation="6dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

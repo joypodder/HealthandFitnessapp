@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FEFAE0"> <!-- Light background color -->
+
+    <!-- Text "Step Counter" displayed at the top in large font -->
+    <TextView
+        android:id="@+id/step_counter_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Step Counter"
+        android:textSize="32sp"
+        android:textColor="#333"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <!-- FrameLayout to contain the circular progress bar and steps count in the center -->
+    <FrameLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/step_counter_label"
+        android:layout_centerInParent="true">
+
+        <!-- Circular Progress Bar -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:progressDrawable="@drawable/circular_progress"
+            android:max="5000"
+            android:rotation="270" />
+
+        <!-- Steps count shown in the center of the progress bar -->
+        <TextView
+            android:id="@+id/steps_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textSize="48sp"
+            android:textColor="#333"
+        android:textStyle="bold" />
+    </FrameLayout>
+
+</RelativeLayout>
